@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: hsl(226, 43%, 10%);
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 350px;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+
+.account {
+    margin-bottom: 20px;
+}
+
+.user_info {
+    position: relative;
+    z-index: 1;
+    display: -webkit-flex;
+    height: 120px;
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 15px;
+}
+
+.user_photo {
+    margin: 20px 20px 20px 30px;
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.names {
+    margin: 35px 30px 35px 0;
+}
+
+.for_info {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.user_name {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.time_range {
+    position: relative;
+    z-index: 0;
+    display: -webkit-flex;
+    justify-content: space-between;
+    margin-top: -30px;
+    padding: 50px 30px 20px 30px;
+    height: 90px;
+    border-radius: 15px;
+    background-color: hsl(235, 46%, 20%);
+}
+
+a.time_period {
+    display: block;
+    height: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: hsl(235, 45%, 61%);
+    cursor: pointer;
+}
+
+a.active {
+    color: white;
+}
+
+.activity {
+    width: 100%;
+}
+
+.bg {
+    position: relative;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.icon {
+    position: absolute;
+    right: 15px;
+    top: -5px;
+}
+
+.bg.work {
+    background-color: hsl(15, 100%, 70%);
+}
+
+.bg.play {
+    background-color: hsl(195, 74%, 62%);
+}
+
+.bg.study {
+    background-color: hsl(348, 100%, 68%);
+}
+
+.bg.exercise {
+    background-color: hsl(145, 58%, 55%);
+}
+
+.bg.social {
+    background-color: hsl(264, 64%, 52%);
+}
+
+.bg.self-care {
+    background-color: hsl(43, 84%, 65%);
+}
+
+.info {
+    position: relative;
+    margin: -30px 0 20px 0;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+p.timer {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+a.more {
+    text-align: right;
+    font-size: 14px;
+}
+
+i.fas {
+    color: hsl(235, 45%, 61%);
+}
+
+p.last_week_timer {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: right;
+    color: hsl(235, 45%, 61%);
+}

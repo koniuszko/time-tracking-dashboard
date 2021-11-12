@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time tracking dashboard</title>
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/2eb05cc17c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="wrapper">
+        <div class="account">
+            <div class="user_info">
+                <img class="user_photo" src="./images/image-jeremy.png" alt="image-jeremy">
+                <div class="names">
+                    <p class="for_info">Report for</p>
+                    <h1 class="user_name">Jeremy Robson</h1>
+                </div>
+            </div>
+            <div class="time_range">
+                <a href="/" class="time_period daily_timer">Daily</a>
+                <a href="/" class="time_period weekly_timer active">Weekly</a>
+                <a href="/" class="time_period monthly_timer">Monthly</a>
+            </div>
+        </div>
+        <div class="activity work">
+            <div class="bg work">
+                <img src="./images/icon-work.svg" alt="icon-work" class="icon">
+            </div>
+            <div class="info">
+                <h2 class="title">Work</h2>
+                <a href="/" class="more"><i class="fas fa-ellipsis-h"></i></a>
+                <p class="timer"><span class="work-current"></span>hrs</p>
+                <p class="last_week_timer">Last Week - <span class="work-previous"></span>hrs</p>
+            </div>
+        </div>
+        <div class="activity play">
+            <div class="bg play">
+                <img src="./images/icon-play.svg" alt="icon-play" class="icon">
+            </div>
+            <div class="info">
+                <h2 class="title">Play</h2>
+                <a href="/" class="more"><i class="fas fa-ellipsis-h"></i></a>
+                <p class="timer"><span class="play-current"></span>hrs</p>
+                <p class="last_week_timer">Last Week - <span class="play-previous"></span>hrs</p>
+            </div>
+        </div>
+        <div class="activity study">
+            <div class="bg study">
+                <img src="./images/icon-study.svg" alt="icon-study" class="icon">
+            </div>
+            <div class="info">
+                <h2 class="title">Study</h2>
+                <a href="/" class="more"><i class="fas fa-ellipsis-h"></i></a>
+                <p class="timer"><span class="study-current"></span>hrs</p>
+                <p class="last_week_timer">Last Week - <span class="study-previous"></span>hrs</p>
+            </div>
+        </div>
+        <div class="activity exercise">
+            <div class="bg exercise">
+                <img src="./images/icon-exercise.svg" alt="icon-exercise" class="icon">
+            </div>
+            <div class="info">
+                <h2 class="title">Exercise</h2>
+                <a href="/" class="more"><i class="fas fa-ellipsis-h"></i></a>
+                <p class="timer"><span class="exercise-current"></span>hrs</p>
+                <p class="last_week_timer">Last Week - <span class="exercise-previous"></span>hrs</p>
+            </div>
+        </div>
+        <div class="activity social">
+            <div class="bg social">
+                <img src="./images/icon-social.svg" alt="icon-social" class="icon">
+            </div>
+            <div class="info">
+                <h2 class="title">Social</h2>
+                <a href="/" class="more"><i class="fas fa-ellipsis-h"></i></a>
+                <p class="timer"><span class="social-current"></span>hrs</p>
+                <p class="last_week_timer">Last Week - <span class="social-previous"></span>hrs</p>
+            </div>
+        </div>
+        <div class="activity self-care">
+            <div class="bg self-care">
+                <img src="./images/icon-self-care.svg" alt="icon-self-care" class="icon">
+            </div>
+            <div class="info">
+                <h2 class="title">Self care</h2>
+                <a href="/" class="more"><i class="fas fa-ellipsis-h"></i></a>
+                <p class="timer"><span class="self-care-current"></span>hrs</p>
+                <p class="last_week_timer">Last Week - <span class="self-care-previous"></span>hrs</p>
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
